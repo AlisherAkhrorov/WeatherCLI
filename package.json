@@ -1,0 +1,26 @@
+{
+  "name": "wheather",
+  "version": "1.0.0",
+  "description": "get weather",
+  "main": "wheather.js",
+  "bin": {
+    "weather": "weathet.js"
+  },
+  "type": "module",
+  "scripts": {
+    "start": "node wheather.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "cli",
+    "wheather"
+  ],
+  "author": "Alisher Akhrorov",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.2.3",
+    "chalk": "^5.2.0",
+    "dedent": "^0.7.0",
+    "pg": "^8.8.0"
+  }
+}
