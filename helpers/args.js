@@ -12,6 +12,8 @@ const getArgs = (args) => {
             }
         }
     });
+    
+    // console.log(rest);+
     return res;
 }
 

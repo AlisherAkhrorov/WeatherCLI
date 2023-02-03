@@ -1,0 +1,12 @@
+curl --location --request POST 'http://192.168.8.227:80/imt/' \
+--header 'X-Partner: 1234567890' \
+--header 'Content-Type: application/json' \
+--data-raw '{
+    "command": "report",
+    "params": {
+        "type": "transfers",
+        "start_date": "2023-01-01 00:00:00",
+        "end_date": "2023-01-31 23:59:59",
+        "pay_system": "sberbank"
+    }
+}'
